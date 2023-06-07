@@ -1,0 +1,70 @@
+.registration-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.registration-title {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.google-registration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 300px;
+  padding-right: 300px;
+  background-color: #db4437;
+  color: white;
+  cursor: pointer;
+}
+
+.google-registration:hover {
+  background-color: #c53929;
+}
+
+.registration-divider {
+  align-items: center;
+  justify-content: center;
+  height: 100px; 
+  margin: 24px 0;
+}
+
+.registration-form {
+  align-items: center;
+  width: 100%;
+}
+
+.registration-error-message {
+  margin-top: 12px;
+}
+
+.registration-error-message-title {
+  color: #f5222d;
+  margin: 0;
+}
+
+.registration-submit-button {
+  background-color: #89375F;
+  width: 100%;
+}
+
+.registration-redirect {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.registration-redirect span {
+  margin-right: 8px;
+}
+
+.registration-sign-in {
+  color: #fdfefe;
+  background-color: #89375F;
+  border: none;
+  cursor: pointer;
+}

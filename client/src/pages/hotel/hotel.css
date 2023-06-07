@@ -1,0 +1,161 @@
+.hotelContainer {
+  margin: 20px;
+}
+
+.slider {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.arrow {
+  color: white;
+  font-size: 32px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.sliderWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderImg {
+  width: 100%;
+  max-width: 600px;
+  object-fit: cover;
+}
+
+.hotelWrapper {
+  margin: 20px 0;
+}
+
+.bookNow {
+  position: absolute;
+  right: 12px;
+  padding: 10px 20px;
+  background-color: #89375F;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hotelTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.hotelAddress {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.hotelAddress svg {
+  color: #777;
+  margin-right: 5px;
+}
+
+.hotelDistance {
+  font-size: 14px;
+  color: #777;
+}
+
+.hotelPriceHighlight {
+  font-size: 16px;
+  color: #777;
+  margin-top: 10px;
+}
+
+.hotelImages {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+
+.hotelImgWrapper {
+  position: relative;
+}
+
+.hotelImg {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.hotelDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.hotelDetailsTexts {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.hotelDetailsPrice {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.hotelDesc {
+  color: #777;
+}
+
+.hotelDetailsPrice h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hotelDetailsPrice span {
+  font-size: 14px;
+  color: #777;
+}
+
+.hotelDetailsPrice h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.hotelDetailsPrice b {
+  color: #CE5959;
+}
+
+.hotelDetailsPrice button {
+  padding: 10px 20px;
+  background-color: #89375F;
+  color: #f5f5f5;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
